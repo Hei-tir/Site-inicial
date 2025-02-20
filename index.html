@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    .conteudo{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: antiquewhite;
+        border: 3px dotted black;
+        border-radius: 50px;
+        width: 60%;
+        height: 900px;
+    }
+    .content{
+        margin-top: 100px;
+        line-height: 50px;
+    }
+    .gridimg{
+        display: grid;
+        grid-template-columns: 35% 35% 35%;
+        column-gap: 0px;
+    }
+    .gridimg div{
+        margin: 0;
+    }
+    .conteudo1{
+        margin: 50px;
+    }
+    .conteudo1{
+        margin-top: 50px;
+    }
+    .conteudo1 img{
+        margin-right:30px;
+        float: left;
+        display: flex;
+    }
+    .conteudo2{
+        line-height: 30px;
+        color: black;
+        text-align: justify;
+    }
+    .content{
+        width: 100%;
+        height: 200px;
+        justify-content: center;
+        justify-items: center;
+    }
+    .content img{
+        margin-top: 10px;
+        margin-left: 30px;
+        width: 50%;
+        height: 80%;
+    }
+    img{
+        width: 30%;
+        height: 30%;
+    }
+    h1{
+        font-size: 33px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    footer {
+    
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    color: darkblue;
+    }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="conteudo" id="Sobremim">
+            <div class="conteudo1">
+                <img src="Stylesheet/img/person-svgrepo-com.svg" alt="" >
+            </div>
+            <div class="conteudo2">
+                <h1>Sobre mim</h1>
+                <h4>
+                    <p>
+                        Me chamo Heitor <br>
+                        Estou cursando Informartica para Web no Ifpr <br>
+                        Tenho 16 anos <br>
+                        Meu hobby é escutar muitas musicas <br>
+                    </p>
+                </h4>
+            </div>
+            <div class="content">
+                <div class="gridimg">
+                    <div>
+                        <img src="Stylesheet/img/image.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="Stylesheet/img/image.svg" alt="" >
+                    </div>
+                    <div>
+                        <img src="Stylesheet/img/image.svg" alt="" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>Desenvolvido por Heitor Gavioli</footer>
+</body>
+</html>
